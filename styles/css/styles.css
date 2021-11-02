@@ -4,7 +4,7 @@
   align-items: center;
   width: 350px;
   height: 400px;
-  background-color: #9e85bb;
+  background: linear-gradient(180deg, #f0def7 0%, #c2aade 32%, #9980b6 48%, #684880 74%);
   padding-top: 50px;
   border: 2px solid;
   border-color: #766cb5;
@@ -39,7 +39,7 @@
   height: 55px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #752e86;
-  background: #ebf5d3;
+  background: linear-gradient(180deg, #ebf5d3 0%, #cdeb55 77%);
   margin: 9px;
 }
 
