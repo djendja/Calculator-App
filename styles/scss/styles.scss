@@ -5,8 +5,7 @@
     align-items: center;
     width: 350px;
     height: 400px;
-    background-color: rgb(158, 133, 187);
-    padding-top: 50px;
+    background: linear-gradient(180deg, rgba(240,222,247,1) 0%, rgba(194,170,222,1) 32%, rgba(153,128,182,1) 48%, rgba(104,72,128,1) 74%);    padding-top: 50px;
     border:2px solid;
     border-color: rgb(118, 108, 181);
     border-radius: 25px;
@@ -39,7 +38,7 @@
               height: 55px;
               font-family:Verdana, Geneva, Tahoma, sans-serif;
               color: rgb(117, 46, 134);
-              background: rgb(235, 245, 211);
+              background: linear-gradient(180deg, rgba(235,245,211,1) 0%, rgba(205,235,85,1) 77%);
               //font-weight: 300;
               margin:9px;
             }
