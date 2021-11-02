@@ -22,6 +22,7 @@
   height: 50px;
   background: #4f458e;
   border-color: #854e85;
+  border-radius: 25px;
 }
 .calc-wrapper .calc-wrapper__digits {
   width: 350px;
