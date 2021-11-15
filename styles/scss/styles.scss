@@ -9,7 +9,7 @@
     border:2px solid;
     border-color: rgb(118, 108, 181);
     border-radius: 25px;
-    .calc-wrapper__display {
+    &__display {
         width: 350px;
         margin-bottom: 30px;
         display: flex;
@@ -22,9 +22,11 @@
             background: rgb(79, 69, 142);
             border-color: rgb(133, 78, 133);
             border-radius: 25px;
+            text-align: right;
+            color: white;
         }
     }
-    .calc-wrapper__digits {
+    &__digits {
         width: 350px;
        // height: 600px;
         .calc-wrapper__row {
