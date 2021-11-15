@@ -12,32 +12,32 @@
     Calculator
     <div class="calc-wrapper">
         <div class="calc-wrapper__display">
-            <input type="text" name="result">
+            <input type="text" id="result" name="result"> 
         </div>
         <div class="calc-wrapper__digits">
             <div class="calc-wrapper__row">
-                <button class="calc-wrapper__button">7</button>
-                <button class="calc-wrapper__button">8</button>
-                <button class="calc-wrapper__button">9</button>
-                <button class="calc-wrapper__button">/</button>
+                <button data-number class="calc-wrapper__button js-num" >7</button>
+                <button data-number class="calc-wrapper__button">8</button>
+                <button data-number class="calc-wrapper__button">9</button>
+                <button data-operation class="calc-wrapper__button">/</button>
             </div>
             <div class="calc-wrapper__row">
-                <button class="calc-wrapper__button">4</button>
-                <button class="calc-wrapper__button">5</button>
-                <button class="calc-wrapper__button">6</button>
-                <button class="calc-wrapper__button">*</button>
+                <button data-number class="calc-wrapper__button">4</button>
+                <button data-number class="calc-wrapper__button">5</button>
+                <button data-number class="calc-wrapper__button">6</button>
+                <button data-operation class="calc-wrapper__button">*</button>
             </div>
             <div class="calc-wrapper__row">
-                <button class="calc-wrapper__button">1</button>
-                <button class="calc-wrapper__button">2</button>
-                <button class="calc-wrapper__button">3</button>
-                <button class="calc-wrapper__button">-</button>
+                <button data-number class="calc-wrapper__button">1</button>
+                <button data-number class="calc-wrapper__button">2</button>
+                <button data-number class="calc-wrapper__button">3</button>
+                <button data-operation class="calc-wrapper__button">-</button>
             </div>
             <div class="calc-wrapper__row">
-                <button class="calc-wrapper__button">0</button>
-                <button class="calc-wrapper__button">C</button>
-                <button class="calc-wrapper__button">=</button>
-                <button class="calc-wrapper__button">+</button>
+                <button data-number class="calc-wrapper__button">0</button>
+                <button data-clear class="calc-wrapper__button">C</button>
+                <button data-equals class="calc-wrapper__button">=</button>
+                <button data-operation class="calc-wrapper__button">+</button>
             </div>
                 
             
@@ -45,6 +45,6 @@
 
         </div>
     </div>
-    <script src="js/main.js"></script>
+    <script src="js/calc.js"></script>
 </body>
 </html>
